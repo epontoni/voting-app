@@ -1,0 +1,31 @@
+.item {
+    display: flex;
+    gap: 1rem;
+}
+
+.item img {
+    max-width: 150px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.description a {
+    text-decoration: none;
+    color: #4183C4;
+}
+
+.extra {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: gray;
+}
+
+.extra img {
+    max-width: 40px;
+    border-radius: 50%;
+}
